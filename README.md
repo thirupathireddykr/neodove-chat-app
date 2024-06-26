@@ -13,4 +13,4 @@
 
 ## Deployment
 
-The app is deployed on [thirupathireddykr](https://github.com/thirupathireddykr/neodove-chat-app.git).
+The app is deployed on [thirupathireddykr](https://neodove-chat-f7xs1cn1f-thirupathireddy-s-projects.vercel.app/).
