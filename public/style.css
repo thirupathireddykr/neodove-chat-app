@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#auth,
+#chat {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin: 5px 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #4cae4c;
+}
+
+#chat #messages {
+  height: 200px;
+  border: 1px solid #ccc;
+  overflow-y: scroll;
+  margin-bottom: 10px;
+}
+
+#chat #messageInput {
+  width: calc(100% - 70px);
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#chat button {
+  width: 60px;
+  padding: 10px;
+}
+
+p {
+  margin-top: 10px;
+}
+
+a {
+  color: #5cb85c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
